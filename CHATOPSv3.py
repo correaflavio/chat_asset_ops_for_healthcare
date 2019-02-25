@@ -293,13 +293,13 @@ while box !="exit":
 		print (msg)
 
 	# chamada funcao se ouver no minimo 2 parametros
-		if box == "roomid" and len(sp)>2:
+	if box == "roomid" and len(sp)>2:
 		sala=sp[1]
 		msg = getwebexRoomID(sala)
 		print ("ID da sala: " +str(sala)+":"+str(msg))
 
 	# chamada funcao se ouver no minimo 2 parametros
-		if box == "novasala" and len(sp)>1:
+	if box == "novasala" and len(sp)>1:
 		email=sp[1]
 		novasala=input ('qual o nome da sala?:')
 		WebexIncUser(novasala,email)
