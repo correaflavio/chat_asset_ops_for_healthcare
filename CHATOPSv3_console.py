@@ -12,7 +12,7 @@ from webexteamssdk import WebexTeamsAPI
 # Daniel Vicentini
 
 # infobot
-api = WebexTeamsAPI(access_token='YTk3NDY2NzMtYTUwZC00MzRjLTgwMDAtMWE0YmYxMmJkN2FmYjg0ZDhmZmMtYTM1')
+api = WebexTeamsAPI(access_token='')
 
 #########################################################
 ## FUNCOES
